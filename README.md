@@ -1,4 +1,5 @@
 # Sudoku_Solver
+
 # Description
 
 This project is a Python-based Sudoku Solver that uses the backtracking algorithm to solve puzzles. The solver works with a 9x9 grid, automatically filling in empty cells while following the standard Sudoku rules:
@@ -35,8 +36,3 @@ The solver tries to place each digit from 1 to 9 in the empty cells and validate
 >[!NOTE]
 >  This project includes unit tests using Python's unittest framework to verify the core functions like ```is_valid()``` and ```solve_sudoku()```. Tests ensure the solver works as expected, including edge cases and various puzzle configurations.
 
-> [!TIP]
-> ```python -m unittest test.test_sudoku```
-
-> [!CAUTION]
-> Be sure to have ```__init__.py``` in the test file because the ```__init__.py``` file transforms a directory into a Python package, allowing it to be imported correctly (File can be empty)
